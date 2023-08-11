@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+.menu-bar {
+  height: 80px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(254,252,243,1) 12%, rgba(248,244,234,1) 29%, rgba(248,234,216,1) 42%, rgba(237,219,199,1) 72%);;
+    
+  }
+  
+ li {
+    float: right;
+  }
+  
+  li a {
+    font-size: xx-large;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 20px 30px 17px 30px;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: white;
+    background: linear-gradient(to bottom, #A64B2A, #8E3200);
+  
+  }
+  .logo
+  {
+    position: absolute;
+    left: 30px;
+    height: 80px;
+    width: 200px
+  }
+  .bg{
+    background: linear-gradient(90deg, rgba(254,252,243,1) 12%, rgba(248,244,234,1) 29%, rgba(248,234,216,1) 42%, rgba(237,219,199,1) 72%);
+    width: 100vw;
+    height: 90vh;
+  }
+  .hello
+  {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+
+    /* position: absolute;
+    left: 600px;
+    top: 200px; */
+    font-size: 3em;
+    color: #8E3200;
+  }

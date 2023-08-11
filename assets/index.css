@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+.menu-bar {
+  height: 80px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(254,252,243,1) 12%, rgba(248,244,234,1) 29%, rgba(248,234,216,1) 42%, rgba(237,219,199,1) 72%);;
+    
+  }
+  
+ li {
+    float: right;
+  }
+  
+  li a {
+    font-size: xx-large;
+    display: block;
+    color: brown;
+    text-align: center;
+    padding: 20px 30px 17px 30px;
+    text-decoration: none;
+  }
+  li a:hover{
+    color: white;
+    background: linear-gradient(to bottom, #A64B2A, #8E3200);
+  
+  }
+
+  .bg{
+    background: linear-gradient(90deg, rgba(254,252,243,1) 12%, rgba(248,244,234,1) 29%, rgba(248,234,216,1) 42%, rgba(237,219,199,1) 72%);
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .cake{
+    position: absolute;
+    right: 100px;
+    top: 250px;
+  }
+
+  .btn {
+    background: #A64B2A;
+    border: 0px;
+    position: absolute;
+    top: 500px;
+    left: 350px;
+
+    /* background-image: -webkit-linear-gradient(top, #A64B2A, #8E3200);
+    background-image: -moz-linear-gradient(top, #A64B2A, #8E3200);
+    background-image: -ms-linear-gradient(top, #A64B2A, #8E3200);
+    background-image: -o-linear-gradient(top, #A64B2A, #8E3200); */
+    background-image: linear-gradient(to bottom, #A64B2A, #8E3200);
+    /* -webkit-border-radius: 28;
+    -moz-border-radius: 28; */
+    border-radius: 28px;
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #DEA057;
+    /* background-image: -webkit-linear-gradient(top, #DEA057, #A64B2A);
+    background-image: -moz-linear-gradient(top, #DEA057, #A64B2A);
+    background-image: -ms-linear-gradient(top, #DEA057, #A64B2A);
+    background-image: -o-linear-gradient(top, #DEA057, #A64B2A); */
+    background-image: linear-gradient(to bottom, #DEA057, #A64B2A);
+    text-decoration: none;
+  }
+
+  .logo
+  {
+    position: absolute;
+    left: 30px;
+    height: 80px;
+    width: 200px
+  }
+
+  .caption
+  {
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    font-size: 6em;
+    color: #8E3200;
+  }
+
+ 
